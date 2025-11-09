@@ -158,8 +158,11 @@ Points à analyser dans les matrices de confusion :
 
 ## 👨‍🎓 Auteur
 
-TP réalisé par : Hsan Khecharem
+**Réalisé par :** Hsan Khecharem
 
+**Filière :** Licence en Sciences de l'Informatique  
+**Spécialité :** Génie Logiciel et Systèmes d'Information  
+**Faculté :** Faculté des Sciences de Sfax
 
 ---
 
