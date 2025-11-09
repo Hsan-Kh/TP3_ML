@@ -164,6 +164,8 @@ Points à analyser dans les matrices de confusion :
 **Spécialité :** Génie Logiciel et Systèmes d'Information  
 **Faculté :** Faculté des Sciences de Sfax
 
+- Email : khecharemhsan@gmail.com
+
 ---
 
 *Pour toute question concernant ce TP, n'hésitez pas à consulter la documentation de scikit-learn et scipy.*
