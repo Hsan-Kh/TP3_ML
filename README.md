@@ -1,26 +1,26 @@
 # TP 3 : Apprentissage Non Supervisé
 
-## 📋 Description
+##  Description
 
 Ce TP explore les techniques de **clustering non supervisé** appliquées à la reconnaissance de chiffres manuscrits. Deux algorithmes principaux sont étudiés :
 - **Classification Ascendante Hiérarchique (CAH)**
 - **K-Moyennes (K-means)**
 
-## 🎯 Objectifs
+##  Objectifs
 
 - Développer et évaluer des modèles de classification non supervisée
 - Comparer les performances de la CAH et du K-means
 - Analyser la structure hiérarchique des données via des dendrogrammes
 - Identifier des groupements naturels dans les chiffres manuscrits
 
-## 📊 Jeu de données : Digits
+##  Jeu de données : Digits
 
 Le dataset **Digits** de scikit-learn contient :
 - **1797 images** de chiffres manuscrits (0-9)
 - Images en **niveaux de gris 8×8 pixels** (64 features par image)
 - Valeurs de pixels variant de **0 à 16**
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 ```python
 - Python 3.x
@@ -31,7 +31,7 @@ Le dataset **Digits** de scikit-learn contient :
 - seaborn
 ```
 
-## 📝 Structure du TP
+##  Structure du TP
 
 ### Partie 1 : Exploration des données
 1. Importation du jeu de données Digits
@@ -54,7 +54,7 @@ Le dataset **Digits** de scikit-learn contient :
 12. Tableau de contingence (confusion matrix)
 13. Analyse comparative CAH vs K-means
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 TP3_ML/
@@ -63,7 +63,7 @@ TP3_ML/
 └── requirements.txt            # Dépendances du projet
 ```
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Créer un environnement virtuel (recommandé)
 ```bash
@@ -76,7 +76,7 @@ source venv/bin/activate  # Sur Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 💻 Utilisation
+##  Utilisation
 
 ### Lancer le notebook Jupyter
 ```bash
@@ -99,21 +99,21 @@ kmeans = KMeans(n_clusters=10, random_state=42)
 clusters = kmeans.fit_predict(digits.data)
 ```
 
-## 📈 Résultats attendus
+##  Résultats attendus
 
 - **Dendrogramme** illustrant la structure hiérarchique des chiffres
 - **Matrices de confusion** comparant les deux méthodes
 - **Visualisations** des clusters formés
 - **Analyse** des similitudes visuelles entre chiffres regroupés
 
-## 🔍 Points clés d'analyse
+##  Points clés d'analyse
 
 - Identification du nombre optimal de clusters via le dendrogramme
 - Comparaison des performances CAH vs K-means
 - Observation des concordances/divergences entre les deux approches
 - Interprétation des regroupements basés sur les similarités visuelles
 
-## 📊 Guide d'interprétation des résultats
+##  Guide d'interprétation des résultats
 
 ### Interprétation du clustering CAH
 Points à analyser :
@@ -135,7 +135,7 @@ Points à analyser dans les matrices de confusion :
   - CAH : Structure hiérarchique claire, interprétable
   - K-means : Plus rapide, sensible à l'initialisation
 
-## 📚 Concepts théoriques
+##  Concepts théoriques
 
 ### CAH (Hierarchical Clustering)
 - Approche **bottom-up** : chaque élément commence comme cluster individuel
@@ -149,14 +149,14 @@ Points à analyser dans les matrices de confusion :
 - Assignation itérative + réajustement des centres
 - Convergence jusqu'à stabilisation
 
-## 📄 Livrables
+##  Livrables
 
 - Code Python complet et commenté
 - Visualisations (dendrogrammes, matrices de confusion)
 - Interprétations des résultats
 - Analyse comparative des deux méthodes
 
-## 👨‍🎓 Auteur
+##  Auteur
 
 **Réalisé par :** Hsan Khecharem
 
